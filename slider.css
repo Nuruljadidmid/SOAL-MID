@@ -28,11 +28,12 @@ header a{
 }
 /* carousel */
 .carousel{
-    height: 100vh;
+    height: 570px;
     margin-top: -50px;
     width: 100vw;
     overflow: hidden;
     position: relative;
+    top: 45px;
 }
 .carousel .list .item{
     width: 100%;
