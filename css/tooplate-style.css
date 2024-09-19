@@ -1,13 +1,31 @@
 
 body {
+	
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-	background: url('../img/shelf-bg.jpg');
 	padding: 20px;
 	overflow-x: hidden;
 }
 
 img{
 	border: 5px solid #555;
+}
+
+.Footer{
+	border: 5px solid #ededed;
+	border-radius: 10px;
+	position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+}
+
+.container{
+    background-color: #000;
+    border: 5px solid #d68307;
 }
 
 a, button { transition: all 0.3s ease; }
@@ -133,6 +151,7 @@ button:focus { outline: none; }
 	padding-top: 60px;
 	padding-bottom: 35px;
 	margin: 0 auto;
+
 }
 
 .tm-gallery .row {
@@ -143,12 +162,14 @@ button:focus { outline: none; }
 .tm-gallery-item {
 	padding-left: 10px;
 	padding-right: 10px;
+	
 }
 
 .tm-gallery-item img { 
 	opacity: 1; 
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
+	border: 5px solid #555;
 }
 
 .tm-gallery-item-overlay {
@@ -233,7 +254,7 @@ p.tm-margin-b-p { margin-bottom: 35px; }
 .tm-white-bordered-btn {
 	color: white;
     border: 1px solid white;
-    padding: 10px 25px;
+   padding: 0;
     display: inline-block;
 }
 
@@ -248,7 +269,7 @@ p.tm-margin-b-p { margin-bottom: 35px; }
 footer {
 	background-color: rgba(0,0,0,0.8);
 	color: white;
-	padding: 15px;
+	padding: 0px;
 	text-align: center;
 }
 
